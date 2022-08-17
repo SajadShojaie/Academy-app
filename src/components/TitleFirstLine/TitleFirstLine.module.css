@@ -1,0 +1,20 @@
+@import "../../index.css";
+
+.title {
+  font-family: sansarif;
+  margin-top: 2em;
+  border-radius: 15px;
+  width: 320px;
+  padding: 11px 0;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+
+}
+.title_dark{
+  background: #3f4a6b;
+  color: #fff;
+}
+.title_light{
+background: #fff; 
+ border: solid 1px #fafafa;
+
+}

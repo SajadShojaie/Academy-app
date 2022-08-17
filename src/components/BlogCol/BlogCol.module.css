@@ -1,0 +1,47 @@
+@import "../../index.css";
+
+.bg {
+  font-family: sansarif;
+  background: #fff;
+  padding: 15px 0;
+  border-radius: 13px;
+  direction: rtl;
+}
+
+.small {
+  display: flex;
+  flex-direction: column;
+  width: 23%;
+}
+
+.big {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main_img {
+  border-radius: 15px;
+  width: 86%;
+  max-width: 300px;
+  object-fit: cover;
+  min-height: 127px;
+}
+
+@media screen and (max-width:980px) {
+  .small {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width:770px) {
+  .small {
+    width: 46%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .small {
+    width: 57%;
+  }
+}

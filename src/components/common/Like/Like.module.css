@@ -1,0 +1,11 @@
+.like_icon {
+  position: relative;
+  top: 3px;
+  left: 0;
+  padding: 0 6px;
+  color: #dadce1e0;
+}
+
+.like_number {
+  font-size: 15px;
+}

@@ -1,0 +1,17 @@
+.custom_input {
+  direction: rtl;
+  border-radius: 15px;
+  padding: 5px 12px;
+  width: 132%;
+  margin-top: 5px;
+  background-color: white;
+  border: solid 1px #e6bfe5;
+}
+
+.custom_input:focus {
+  outline: none;
+}
+
+.custom_input::placeholder {
+  font-size: 13px;
+}

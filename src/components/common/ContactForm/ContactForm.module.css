@@ -1,0 +1,71 @@
+@import "../../../index.css";
+
+.main {
+  font-family: sansarif;
+  width: 400px;
+  min-height: 480px;
+  padding: 20px 5px;
+  border: solid 1px #fafafa;
+  border-radius: 15px;
+  background: #fff;
+}
+
+.light {
+  background: #fff;
+}
+
+.dark {
+  border: solid 1px #4b4949;
+  background: #242835;
+  color: #fff;
+}
+
+.text_area {
+  width: 89%;
+  height: 110px;
+  max-height: 130px;
+  min-height: 60px;
+  padding: 9px 14px;
+  border-radius: 15px;
+  display: block;
+  margin: 17px auto 0;
+  direction: rtl;
+}
+
+.text_area_light {
+  border: solid 1px #e6bfe5;
+  background: #fff;
+}
+
+.text_area_dark {
+  background: #373747;
+  border: none;
+  color: #fff;
+}
+
+.text_area::placeholder {
+  font-size: 13px;
+}
+
+
+.send_btn:hover {
+  opacity: 0.7;
+}
+
+.erorr {
+  direction: rtl;
+  font-size: 13px;
+  color: red;
+  margin: 9px;
+  width: 90%;
+}
+
+.fontTost {
+  font-family: sansarif;
+}
+
+@media screen and (max-width: 700px) {
+  .main {
+    margin: 0 auto;
+  }
+}

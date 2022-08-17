@@ -1,0 +1,32 @@
+@import "../../index.css";
+
+.cover {
+  font-family: sansarif;
+  position: relative;
+  top: 0;
+  padding: 1.5em 0;
+}
+
+.holder_coursesCol {
+  padding: 0 5em !important;
+}
+
+.paganation {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width:990px) {
+  .cover {
+    min-width: 652px;
+  }
+
+  .holder_coursesCol {
+    padding: 1em !important;
+  }
+
+  .paganation {
+    width: 100%;
+  }
+}

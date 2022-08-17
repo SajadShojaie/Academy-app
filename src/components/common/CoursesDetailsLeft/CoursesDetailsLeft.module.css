@@ -1,0 +1,28 @@
+@import "../../../index.css";
+
+.cover {
+  width: 32%;
+  border-radius: 15px;
+  font-size: 13px;
+}
+
+.about {
+  width: 86%;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+.img {
+  width: 57px;
+  border-radius: 50%;
+}
+
+i {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .cover {
+    width: 97%;
+  }
+}

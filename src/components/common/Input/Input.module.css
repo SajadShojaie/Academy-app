@@ -1,0 +1,33 @@
+@import "../../../index.css";
+
+.input {
+  width: 93%;
+  padding: 5px 14px;
+  border-radius: 15px;
+  display: block;
+  margin: 17px auto 0;
+  direction: rtl;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input_light {
+  background: #fff;
+  border: solid 1px #e6bfe5;
+}
+
+.input_dark {
+  background: #373747;
+  border: none;
+  color: #fff;
+}
+
+.input::placeholder {
+  font-size: 13px;
+}
+
+.input_dark::placeholder {
+  color: #fff;
+}

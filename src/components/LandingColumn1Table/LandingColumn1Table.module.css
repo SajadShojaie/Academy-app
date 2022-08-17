@@ -1,0 +1,26 @@
+@import "../../index.css";
+
+.table_cover {
+  width: 250px;
+  padding: 20px;
+  height: 115px;
+  border-radius: 13px;
+  font-family: sansarif;
+  color: #fff;
+  font-weight: bold;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.table_cover:hover {
+  opacity: 0.7;
+}
+
+.img_fix {
+  width: 50px;
+}
+@media screen and (max-width: 980px) {
+  .table_cover {
+    width: 100%;
+  }
+}

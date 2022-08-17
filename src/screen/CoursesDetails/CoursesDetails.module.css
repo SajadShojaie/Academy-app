@@ -1,0 +1,18 @@
+@import "../../index.css";
+
+.cover {
+  min-width: 490px;
+  width: 1200px;
+  margin: 0 auto;
+  font-family: sansarif;
+  position: relative;
+  top: 60px;
+  padding-bottom: 60px;
+}
+
+@media screen and (max-width: 992px) {
+  .cover {
+    width: 95%;
+    flex-direction: column;
+  }
+}

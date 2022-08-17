@@ -1,0 +1,10 @@
+@import "../../../index.css";
+
+.popup_content {
+  font-family: sansarif;
+  border-radius: 14px;
+}
+
+.icon {
+  font-size: 5em;
+}

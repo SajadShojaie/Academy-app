@@ -1,0 +1,10 @@
+@import "../../index.css";
+
+.price {
+  font-family: sansarif;
+  width: 95%;
+  padding: 3px 24px 3px 0px;
+  border-radius: 8px;
+  margin-top: 13px;
+  background: #fafafa;
+}

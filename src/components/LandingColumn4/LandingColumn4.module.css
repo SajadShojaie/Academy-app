@@ -1,0 +1,84 @@
+@import "../../index.css";
+
+.back_bg {
+  background: url("../../assets/image/Landing/column4/left-bg.png") no-repeat 0%
+      0%,
+    url("../../assets/image/Landing/column4/right-bg.png") no-repeat 100% bottom;
+  background-size: contain;
+}
+
+.cover {
+  width: 1100px;
+  margin: 0 auto;
+  font-family: sansarif;
+  padding: 20px 0;
+}
+
+.top_content {
+  width: 30%;
+  border-radius: 13px;
+  margin: 25px auto;
+  direction: rtl;
+  padding: 0;
+}
+
+.top_content_light {
+  background: #fff !important;
+}
+
+.top_content_dark {
+  background: #242835;
+}
+
+.color_dark > p {
+  color: #fff !important;
+}
+
+.color_light > p {
+  color: black !important;
+}
+
+.img_pos {
+  position: relative;
+  bottom: 14px;
+  left: 24px;
+  border-radius: 15px;
+  width: 25%;
+}
+
+.bottom_holder {
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (max-width: 980px) {
+  .cover {
+    width: 100%;
+  }
+
+  .back_bg {
+    background: none;
+  }
+
+  .textdes_res {
+    font-size: 17px;
+  }
+
+  .img_pos {
+    position: unset;
+    width: 30%;
+  }
+
+  .top_content {
+    padding: 15px;
+    width: 93% !important;
+  }
+
+  .bottom_holder {
+    width: 80%;
+    display: block;
+    font-size: 23px;
+  }
+}

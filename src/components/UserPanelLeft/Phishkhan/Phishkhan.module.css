@@ -1,0 +1,35 @@
+@import "../../../index.css";
+
+.img_fix {
+  height: 90px;
+  border-radius: 50%;
+  width: 90px;
+  object-fit: cover;
+}
+.cover {
+  display: flex;
+  justify-content: space-around;
+}
+.about_respo {
+  font-family: sansarif;
+  width: 347px;
+  padding: 10px 5px;
+  border: solid 1px #fafafa;
+  border-radius: 15px;
+  background: #fff;
+  padding: 16px;
+}
+@media screen and (max-width: 720px) {
+  .div_responsive {
+    display: none;
+  }
+  .cover {
+    display: block;
+  }
+  .about_respo {
+    box-shadow: none;
+    border: 1px solid #ccc;
+    width: 92%;
+    margin: 0px auto;
+  }
+}

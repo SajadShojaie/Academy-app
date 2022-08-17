@@ -1,0 +1,26 @@
+@import "../../index.css";
+
+.cover {
+  font-family: sansarif;
+  position: relative;
+  top: 0;
+  padding: 13em 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.right_col {
+  width: 400px;
+  height: 500px;
+}
+
+@media screen and (max-width: 700px) {
+  .cover {
+    justify-content: center !important;
+    flex-direction: column;
+  }
+
+  .right_col {
+    margin: 0 auto;
+  }
+}

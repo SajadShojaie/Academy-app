@@ -1,0 +1,47 @@
+@import "../../index.css";
+
+.big_bg {
+}
+
+.cover {
+  height: 600px;
+  font-family: sansarif;
+}
+
+.left_col {
+  width: 23%;
+  margin-left: 4%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.left_col img {
+  border-radius: 15px;
+  cursor: pointer;
+  width: 85%;
+}
+
+.left_col img:hover {
+  opacity: 0.7;
+}
+
+.right_col {
+  width: 59%;
+  border-radius: 15px;
+  direction: rtl;
+  padding: 9px 0;
+}
+.right_col img {
+  border-radius: 15px;
+  cursor: pointer;
+  width: 90%;
+}
+@media screen and (max-width: 980px) {
+  .left_col {
+    display: none !important;
+  }
+  .right_col {
+    width: 100%;
+  }
+}

@@ -1,0 +1,17 @@
+@import "../../../index.css";
+
+.btn {
+  color: #a216cc;
+  border: solid 1px #a216cc;
+  text-align: center;
+  margin: 20px auto;
+  padding: 5px 21px;
+  border-radius: 13px;
+  cursor: pointer;
+  width: 103px;
+}
+
+.btn:hover {
+  background: #a216cc !important;
+  color: #fff !important;
+}

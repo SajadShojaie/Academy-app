@@ -1,0 +1,36 @@
+@import "../../index.css";
+
+.big_bg {
+  background: url("../../assets/image/Landing/column1/left-top-bg.png") no-repeat 0% 0%,
+    url("../../assets/image/Landing/column1/left-bottom-bg.png") no-repeat 0% 100%,
+    url("../../assets/image/Landing/column1/right-bg.png") no-repeat 100% 0;
+  background-size: contain;
+  padding: 3em 0;
+}
+
+.holder_main {
+  font-family: sansarif;
+  width: 650px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+@media screen and (max-width: 980px) {
+  .holder_main {
+    width: 100%;
+  }
+
+  .big_bg {
+    background: none;
+  }
+
+  .service_res {
+    width: 40%;
+    margin: 0 auto;
+  }
+}

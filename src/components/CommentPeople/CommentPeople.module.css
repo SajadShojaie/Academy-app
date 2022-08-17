@@ -1,0 +1,33 @@
+@import "../../index.css";
+
+.chat {
+  width: 85%;
+  border-radius: 16px;
+  margin-left: 20px;
+  padding: 17px;
+}
+
+i {
+  cursor: pointer;
+}
+
+.img_user {
+  border-radius: 100%;
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+}
+
+.reply_textarea {
+  width: 100%;
+  min-height: 120px;
+  padding: 15px;
+  border-radius: 15px;
+  border: solid 1px #ccc;
+  outline: none;
+  direction: rtl;
+}
+
+.reply_textarea::placeholder {
+  font-size: 13px;
+}

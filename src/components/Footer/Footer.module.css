@@ -1,0 +1,6 @@
+@import "../../index.css";
+
+.cover {
+  height: 600px;
+  border: solid 1px #ccc;
+}

@@ -1,0 +1,41 @@
+@import "../../index.css";
+
+.card {
+  font-family: sansarif;
+  border-radius: 10px;
+  padding: 25px 0;
+  text-align: center;
+  margin: 3px;
+  cursor: pointer;
+  width: 190px;
+  height: 130px;
+}
+.card_light {
+  background: #ffffff;
+}
+.card_dark {
+  background: #242835;
+}
+.text_dark {
+  color: #fff;
+}
+.text_light {
+  color: black;
+}
+.card:hover {
+  background: #9651dd21;
+}
+
+@media screen and (max-width: 980px) {
+  .card {
+    width: 57%;
+    margin: 10px auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card {
+    width: 45%;
+    margin: 10px auto;
+  }
+}

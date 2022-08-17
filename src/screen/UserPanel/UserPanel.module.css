@@ -1,0 +1,21 @@
+@import "../../index.css";
+
+.cover {
+  min-width: 600px;
+  font-family: sansarif;
+  position: relative;
+  width: 1054px;
+  margin: 0 auto;
+  top: 60px;
+  font-size: 14px;
+}
+
+.fontTost {
+  font-family: sansarif;
+}
+
+@media screen and (max-width: 720px) {
+  .cover {
+    width: 95%;
+  }
+}

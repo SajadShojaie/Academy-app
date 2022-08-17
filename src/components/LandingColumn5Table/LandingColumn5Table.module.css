@@ -1,0 +1,42 @@
+@import "../../index.css";
+
+.holder_content {
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+  border-radius: 10px;
+  width: 90%;
+  height: 90px;
+  margin: 9px auto;
+  display: flex;
+  padding: 7px;
+  direction: rtl;
+  font-family: sansarif;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.holder_content_light {
+  background: #fff;
+}
+
+.holder_content_dark {
+  background: #373747;
+  color: #fff;
+}
+
+.holder_content img:hover {
+  opacity: 0.7;
+}
+
+.cover_img {
+  background: #f4f4f4;
+  border-radius: 7px;
+  min-width: 135px;
+  max-width: 135px;
+  max-height: 75px;
+}
+
+.content_col {
+  align-self: center;
+  margin-right: 12px;
+  margin-top: 10px;
+}

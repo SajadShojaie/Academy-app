@@ -1,0 +1,21 @@
+@import "../../index.css";
+
+.left,
+.right {
+  min-height: 700px;
+  border-radius: 25px;
+}
+
+.left {
+  width: 73%;
+  padding: 1.5em;
+  margin-top: 1.5em;
+}
+
+@media screen and (max-width: 720px) {
+  .left {
+    width: 87%;
+    padding: 1em;
+    margin-top: 1em;
+  }
+}

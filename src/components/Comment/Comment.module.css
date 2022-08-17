@@ -1,0 +1,44 @@
+@import "../../index.css";
+
+.cover {
+  width: 100%;
+  margin-top: 9px;
+  border-radius: 15px;
+  padding: 17px;
+}
+
+.desc,
+.opinion {
+  cursor: pointer;
+}
+
+.cover_textarea {
+  border: solid 1px #fff;
+  width: 100%;
+  min-height: 150px;
+  max-height: 170px;
+  margin: 10px auto;
+  border-radius: 16px;
+  outline: none;
+  padding: 15px 25px;
+  direction: rtl;
+}
+
+.cover_textarea::placeholder {
+  font-size: 14px;
+}
+
+.text_cover {
+  padding: 9px;
+  direction: rtl;
+  line-height: 1.8;
+  font-size: 14px;
+  text-justify: inter-word;
+  text-align: justify;
+}
+
+.cover_comment {
+  overflow-y: scroll;
+  max-height: 550px;
+  padding: 0 1em;
+}

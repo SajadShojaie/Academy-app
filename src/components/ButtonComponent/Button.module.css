@@ -1,0 +1,9 @@
+@import "../../index.css";
+
+.send_btn {
+  font-family: sansarif;
+  border-radius: 16px !important;
+  background: #36c54e !important;
+  border: #36c54e solid 1px !important;
+  width: 89%;
+}

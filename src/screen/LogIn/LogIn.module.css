@@ -1,0 +1,72 @@
+@import "../../index.css";
+
+a {
+  text-decoration: none !important;
+}
+
+.fontTost {
+  font-family: sansarif;
+  font-size: 14px;
+}
+
+.big_bg {
+  font-family: sansarif;
+}
+
+.bg_light {
+  background: url("../../assets/image/Log-in/1.png") no-repeat,
+    linear-gradient(269.02deg, #9f0099 0.01%, #66008c 103.57%);
+  height: 100vh;
+  background-position: center;
+  background-size: 100%;
+  justify-content: end;
+}
+
+.bg_dark {
+  background: url("../../assets/image/Log-in/dark1.png") no-repeat, #373747;
+  height: 100vh;
+  min-height: 730px;
+  background-position: center;
+  background-size: 100%;
+  justify-content: end;
+}
+
+.iconlogin {
+  padding: 30px;
+  background: url(../../assets/image/Log-in/2.png) 46% 0% no-repeat;
+}
+
+.erorr {
+  direction: rtl;
+  font-size: 13px;
+  color: red;
+  margin: 9px;
+  width: 90%;
+}
+
+.show_password_btn {
+  position: absolute;
+  bottom: 2px;
+  left: 25px;
+  font-size: 14px;
+  cursor: pointer;
+  border-right: solid 1px #ccc;
+  padding: 6px;
+  color: black;
+}
+
+.fixing_place {
+  bottom: 30px;
+  left: 30px;
+}
+
+@media screen and (max-width: 750px) {
+  .big_bg {
+    background: linear-gradient(269.02deg, #9f0099 0.01%, #66008c 103.57%);
+    height: 100vh;
+  }
+
+  .holder_content {
+    justify-content: center !important;
+  }
+}

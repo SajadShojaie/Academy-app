@@ -1,0 +1,21 @@
+@import "../../index.css";
+
+.cover {
+  min-width: 450px;
+  font-family: sansarif;
+  position: relative;
+  top: 20vh;
+  padding: 10px 0;
+}
+
+@media screen and (max-width:992px) {
+  .img_res {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width:750px) {
+  .img_res {
+    width: 80%;
+  }
+}

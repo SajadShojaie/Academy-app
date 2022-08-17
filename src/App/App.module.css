@@ -1,0 +1,18 @@
+@import "../index.css";
+
+.cover {
+  min-width: 470px;
+}
+
+.dark_mode {
+  background-color: #373747;
+}
+
+.light_mode {
+  background-color: #fff;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+.fontTost {
+  font-family: sansarif;
+}

@@ -1,0 +1,12 @@
+@import "../../../index.css";
+
+.ButtonForm {
+  color: #fff;
+  border-radius: 16px;
+  background: #36c54e;
+  border: #36c54e solid 1px;
+  width: 95%;
+  margin: 17px auto 17px;
+  display: block;
+  height: 40px;
+}

@@ -1,0 +1,18 @@
+@import "../../index.css";
+
+.cover {
+  min-width: 600px;
+  font-family: sansarif;
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+  top: 60px;
+  margin-bottom: 7em !important;
+}
+@media screen and (max-width: 992px) {
+  .cover {
+    justify-content: center !important;
+    padding: 10px;
+    width: 87%;
+  }
+}

@@ -1,0 +1,14 @@
+@import "../../index.css";
+
+.bg_content {
+  background: #fff;
+  border-radius: 13px;
+  padding: 7px 17px;
+  font-family: sansarif;
+}
+
+.bg_content span {
+  padding: 0px 10px;
+  font-weight: bold;
+  cursor: pointer;
+}

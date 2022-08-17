@@ -1,0 +1,93 @@
+@import "../../index.css";
+
+.cover {
+  font-family: sansarif;
+  direction: rtl;
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1100px;
+  margin: 4em auto;
+}
+
+.cover_light {
+  background: #fff;
+}
+
+.cover_dark {
+  background: #373747;
+}
+
+.main_col {
+  width: 530px;
+  border-radius: 15px;
+  position: relative;
+}
+
+.main_col_light {
+  background: #f7f7f7;
+  border: solid 1px #fafafa;
+}
+
+.main_col_dark {
+  background: #242835;
+  border: solid 1px #4b4949;
+}
+
+.title {
+  width: 20%;
+  text-align: center;
+  padding: 10px;
+  height: 43px;
+  position: absolute;
+  right: -16px;
+  top: -23px;
+  bottom: 25px;
+  border-radius: 13px;
+}
+
+.title_light {
+  background: #fff;
+}
+
+.title_dark {
+  background: #242835;
+  border: solid 1px #4b4949;
+  color: #fff;
+}
+
+@media screen and (max-width: 980px) {
+  .cover {
+    width: 100%;
+    display: block;
+    margin-top: 0;
+  }
+
+  .main_col {
+    margin-top: 3em;
+    width: 100%;
+  }
+
+  .title {
+    right: 12% !important;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .cover {
+    width: 100%;
+    display: block;
+    margin-top: 0;
+  }
+
+  .main_col {
+    margin-top: 3em;
+    width: 100%;
+    /*this*/
+  }
+
+  .title {
+    right: 13% !important;
+  }
+}

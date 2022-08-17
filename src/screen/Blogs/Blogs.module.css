@@ -1,0 +1,44 @@
+@import "../../index.css";
+
+.cover {
+  position: relative;
+  top: 0;
+  padding: 1.5em 0;
+}
+
+.holder_blogcol {
+  padding: 0 5em !important;
+}
+
+.fontTost {
+  font-family: sansarif;
+  font-size: 13px;
+}
+
+.paganation {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.skaleton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 60px
+}
+
+@media screen and (max-width:990px) {
+  .cover {
+    min-width: 652px;
+  }
+
+  .holder_blogcol {
+    padding: 1em !important;
+  }
+
+  .paganation {
+    width: 100%;
+  }
+}

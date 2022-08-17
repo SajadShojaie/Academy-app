@@ -1,0 +1,28 @@
+@import "../../../index.css";
+
+.main {
+  font-family: sansarif;
+  width: 347px;
+  padding: 10px 5px;
+  border-radius: 15px;
+}
+
+.light {
+  border: solid 1px #fafafa;
+
+  background: #fff;
+}
+.dark {
+  border: solid 1px #4b4949;
+  background: #242835;
+  color: #fff;
+}
+.dark a,
+.dark h6 {
+  color: #1e90ff;
+}
+@media screen and (max-width: 750px) {
+  .light {
+    margin: 0 auto;
+  }
+}

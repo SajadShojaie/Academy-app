@@ -1,0 +1,35 @@
+@import "../../index.css";
+
+.cover {
+  width: 1050px;
+  margin: 15px auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-family: sans-serif;
+}
+
+.left_col {
+  background: url(../../assets/image/Landing/column6/complainIllustration.svg) no-repeat;
+  background-position: 100% 64%;
+  background-size: 100%;
+}
+
+.right_col {
+  justify-content: end;
+}
+
+
+@media screen and (max-width:980px) {
+  .cover {
+    width: 100%;
+    grid-template-columns: 100%;
+  }
+
+  .left_col {
+    display: none;
+  }
+
+  .right_col {
+    justify-content: center !important;
+  }
+}

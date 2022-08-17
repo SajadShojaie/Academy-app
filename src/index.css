@@ -1,0 +1,19 @@
+@font-face {
+  font-family: sansarif;
+  src: url(./assets/fonts/IRANSans.ttf);
+}
+
+@font-face {
+  font-family: Farah;
+  src: url(./assets/fonts/Farah\ Medium_MRT.ttf);
+}
+
+@font-face {
+  font-family: BYekan;
+  src: url(./assets/fonts/BYekan.ttf);
+}
+
+@font-face {
+  font-family: BEsfhnBd;
+  src: url(./assets/fonts/BEsfhnBd.ttf);
+}

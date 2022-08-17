@@ -1,0 +1,70 @@
+@import "../../index.css";
+
+.fontTost {
+  font-family: sansarif;
+  font-size: 14px;
+}
+
+.bg_light {
+  background: url("../../assets/image/Register/1.png") no-repeat,
+    linear-gradient(269.02deg, #9f0099 0.01%, #66008c 103.57%);
+  height: 100vh;
+  min-height: 730px;
+  background-position: center;
+  background-size: 100%;
+}
+
+.bg_dark {
+  background: url("../../assets/image/Register/dark1.png") no-repeat, #373747;
+  height: 100vh;
+  background-position: center;
+  background-size: 100%;
+}
+
+.iconSignup {
+  padding: 30px;
+  background: url(../../assets/image/Sign-up/2.png) 54% 0% no-repeat;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.erorr {
+  direction: rtl;
+  font-size: 13px;
+  color: red;
+  margin: 9px;
+  width: 90%;
+}
+
+.show_password_btn {
+  position: absolute;
+  bottom: 2px;
+  left: 25px;
+  font-size: 14px;
+  cursor: pointer;
+  border-right: solid 1px #ccc;
+  padding: 6px;
+}
+
+.fixing_place {
+  bottom: 30px;
+  left: 30px;
+}
+
+@media screen and (max-width: 750px) {
+  .bg_light {
+    background: linear-gradient(269.02deg, #9f0099 0.01%, #66008c 103.57%);
+    height: 100vh;
+  }
+
+  .bg_dark {
+    background: #373747;
+    height: 100vh;
+  }
+
+  .holder_content {
+    justify-content: center !important;
+  }
+}

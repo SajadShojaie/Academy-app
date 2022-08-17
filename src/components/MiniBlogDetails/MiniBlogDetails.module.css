@@ -1,0 +1,10 @@
+@import "../../index.css";
+
+.MiniBlogDetails {
+  font-size: 14px;
+}
+
+h6 {
+  /* color: rgba(37, 37, 37, 0.815); */
+  direction: rtl;
+}

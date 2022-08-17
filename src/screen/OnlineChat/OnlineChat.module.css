@@ -1,0 +1,72 @@
+@import "../../index.css";
+
+.icon_cover {
+  position: fixed;
+  right: 1px;
+  bottom: 88px;
+}
+
+.chat_cover {
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+  width: 370px;
+  height: 520px;
+  border-radius: 13px;
+  border: solid 1px #ccc;
+  background: #fff;
+}
+
+.chat_body::-webkit-scrollbar {
+  width: 4px;
+  background: #ccc;
+  margin: 10px;
+}
+
+.chat_body::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  margin-block: 9px;
+}
+
+.chat_header {
+  background: #af0dff;
+  color: #fff;
+  border-radius: 13px 13px 0 0;
+  font-family: cursive;
+  font-size: 13px;
+}
+
+.chat_body {
+  background: url("../../assets/image/online-chat/chat_bg.PNG");
+  width: 100%;
+  height: 77%;
+  overflow-y: scroll;
+  direction: rtl;
+}
+
+.message {
+  font-family: sansarif;
+  border: solid 1px #ccc;
+  background: #eee6f6;
+  width: 75%;
+  border-radius: 15px;
+  direction: rtl;
+}
+
+.chat_bottom {
+  background: #fff;
+  border-radius: 0 0 13px 13px;
+}
+
+.chat_input {
+  border: solid 1px #ccc;
+  border-radius: 16px;
+  width: 87%;
+  outline: none;
+  direction: rtl;
+  padding: 5px 15px;
+}
+
+.chat_input:focus {
+  outline: none;
+}

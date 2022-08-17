@@ -1,0 +1,27 @@
+@import "../../../index.css";
+
+.cover {
+  font-family: sansarif;
+  position: relative;
+  top: 60px;
+}
+
+.title {
+  background: linear-gradient(45deg, #a817ff, transparent);
+  width: 100%;
+  padding: 1em;
+  text-align: center;
+  font-size: 2em;
+  color: #fff;
+  font-weight: bold;
+}
+
+.card_cover {
+  height: 600px;
+  border-radius: 10px;
+}
+
+.fontTost {
+  font-family: sansarif;
+  font-size: 13px;
+}

@@ -1,0 +1,29 @@
+@import "../../index.css";
+
+.BlogDetailsRight {
+  width: 62%;
+  border-radius: 15px;
+  margin-right: 34px !important;
+}
+
+.desc,
+.opinion {
+  border: solid 1px #fafafa;
+  border-radius: 12px 12px 0 0;
+}
+
+@media screen and (max-width: 992px) {
+  .BlogDetailsRight {
+    width: 97%;
+    margin-right: unset;
+    margin: 1em auto !important;
+  }
+}
+
+.active_link_light {
+  background: #f6f6f6;
+}
+
+.active_link_dark {
+  background: #353545;
+}
